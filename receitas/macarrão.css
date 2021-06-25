@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+    font-family: cursive;
+    background-image: url(https://img.freepik.com/fotos-gratis/cozinhar-espaguete-de-massa-italiana-caseiro-com-molho-de-tomate-em-panela-de-ferro-fundido-servido-com-pimenta-vermelha-manjericao-fresco-tomate-cereja-e-especiarias-sobre-a-mesa-de-madeira-rustica-preta_251318-100.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: goldenrod;
+    animation-name: espaguete;
+    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+
+
+
+ol{
+    list-style-type: circle;
+    text-decoration: none;
+    color: whitesmoke;
+
+    
+}
+ul{
+    list-style-type: square;
+    text-align: justify;
+    
+}
+
+.modo{
+    color: orangered;
+    font-size: 27px;
+}
+
+span{
+    color:orangered;
+}
+
+@keyframes espaguete{
+    0%{
+        transform: rotate(360deg);
+
+}
+
+60%{
+    font-size: 30px;
+    color: orangered;
+}
+
+80%{
+    color: powderblue;
+    font-size: 25px ;
+}
+
+90%{
+    color: cornflowerblue;
+
+}
+
+100%{
+    color: goldenrod;
+}
+
+}
+
+h1:active{
+    color: royalblue;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    border: 7px double #dc143c;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding: 4px;
+    background-color: #ff003338;
+    margin-top: 80px;
+}
+
+a:visited{
+    color: cyan;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    float: right;
+    margin-right: 250px;
+    border: 5px dotted yellow;
+    width: 250px;
+    height: 200px;
+    
+
+}
+
+article iframe{
+    display: flex;
+    margin-left: 30%;
+    border: 7px double yellow;
+    margin-top: 5%;
+}
+
+footer p{
+
+    color: lightseagreen;
+}
+
+input{
+    cursor: pointer;
+}

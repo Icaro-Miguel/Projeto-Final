@@ -1,0 +1,177 @@
+body{
+    font-family: cursive;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.TKgw6kiz993WTCehmrXfDQHaE7&pid=Api&P=0&w=258&h=173);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #d61818;
+    font-size: 40px;
+}
+
+#primeirafrase{
+    text-align: center;
+    color:rgb(235, 235, 12);
+}
+
+a:visited{
+    color:rgb(2, 58, 84);
+}
+
+a:link{
+    color: red;
+}
+
+a{ 
+    text-decoration: none;
+    
+}
+
+h2, h3, h4{
+ 
+    font-size: 25px;
+    
+
+}
+ 
+h1{
+    animation-name: titulo;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    color: rgb(41, 225, 206);
+}
+
+
+@keyframes titulo{ 
+0%{
+    transform:rotate(360deg);
+
+}
+
+20%{
+   color: aqua; 
+}
+
+30%{
+    color: blue;
+}
+
+40%{
+    color: blueviolet;
+    
+
+   
+}
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 20px solid #afeeee38;
+    background-color: #afeeee38;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+
+
+
+
+main{
+    text-align: justify;
+}
+
+.curiosidades{
+    text-align: center;
+    font-size: 25px;
+    color: crimson;
+}
+
+nav p{
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main a{
+    border: 5px solid #e0ffff38;
+    background-color: #e0ffff38;
+    color: gray;
+
+}
+
+footer{
+    border: 5px dotted #f8b5f8 ;
+    background-color: #dda0dd38;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+span{
+    color: crimson;
+}
+
+#hs:hover{
+    color: red;
+    
+}
+
+#hs{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+main nav{
+    background-color: #e0ffff38;
+    border: 8px dotted whitesmoke;
+    margin: 20px;
+    margin-top:35px;
+    padding-bottom:20px;
+}
+
+h5{
+    color: crimson;
+}
+
+/* código para efeito gradiente visto no instagam =)*/
+
+#primeirafrase{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 100px;
+    letter-spacing: 1px;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+    margin-top: 55px;
+}
+
+@-webkit-keyframes hue{
+    from{
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to{
+        -webkit-filter: hue-rotate(-260deg);
+    }
+}
+
+/* fim do código para o efeito gradiente.*/

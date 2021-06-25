@@ -1,0 +1,116 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/chocolate-cake-with-nuts-on-a-black-background-picture-id965955334?k=6&m=965955334&s=170667a&w=0&h=4WsGaeg92ujw3MgseZhjYLXBQbBq0EPYnx-TSmJHRVw=);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    text-align: justify;
+    font-family: cursive;
+
+}
+
+ol{
+    text-decoration: none;
+    list-style-type: circle;
+    color: white;
+    
+}
+
+ul{
+    list-style-type: square ;
+    text-align: justify;
+    
+    color: lightseagreen;
+}
+
+#modo{
+    list-style-type: decimal;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    animation-name: bolodechoco;
+    animation-delay: 2s;
+    animation-duration: 7s;
+    animation-timing-function:  ease;
+    color: orange;   
+    transition: 1s ease-in 0s ;  
+}
+
+@keyframes bolodechoco{
+
+  0%{
+    transform: rotate(360deg);
+    color: brown;
+    font-size: 30px;
+}
+  70% {
+    color: chocolate;
+}
+  80%{
+    color: crimson;
+}
+  90%{
+    color: cornflowerblue;
+}
+  100%{
+    color: orange;
+}
+ 
+}
+
+h2, h3, span{
+    color: orangered;
+}
+
+
+
+footer{
+    text-align: justify;
+    border: 7px double #dc143c;
+    background-color: #dc143c38;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    
+}
+
+
+
+h1:hover{
+    color:brown;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    
+    color: orangered;   
+}
+
+a:visited{
+    color: cyan;
+}
+
+a:link{
+    color: orangered ;
+}
+
+
+
+article{
+    margin-bottom: 19%;
+}
+
+
+
+ iframe{
+    margin-top: 30px;
+    margin-left: 30%;    
+    border: 10px double brown ;
+}
+
+input{
+    cursor:pointer;
+}

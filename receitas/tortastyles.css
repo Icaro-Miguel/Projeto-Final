@@ -1,0 +1,123 @@
+body{   
+    background-image: url(https://tse3.explicit.bing.net/th?id=OIP.9mdY6gTyJXkOCKJlUXAFSwHaE7&pid=Api&P=0&w=249&h=167);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    margin: 0%;
+
+}
+
+
+ul{
+    list-style-type: square;
+    text-decoration: none;
+    color: orangered;
+    
+}
+
+ol{
+    list-style-type: circle;
+    text-decoration: none;
+    margin: 0%;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    
+}
+.modo{
+    font-size: 23px;
+}
+ span{
+     color: orangered;
+}
+
+iframe{
+    margin-left: 400px;
+    margin-top: 50px;
+    border: 9px double gold;
+}
+
+footer{
+    text-align: center;
+    border: 9px double crimson;
+    background-color: #dc143c38;
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+}
+
+a:link{
+    color: orangered;
+
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#textoDoModo{
+ color: red;
+}
+
+
+h1{
+    color: lightskyblue;
+    animation-name: animationH1;
+    animation-duration: 7s ;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    font-size: 25px;
+}
+
+@keyframes animationH1{
+0%{
+    color: lightskyblue;
+    transform: rotate(0deg);
+}
+10%{
+    color: magenta;
+    transform: rotate(360deg);
+
+}
+
+30%{
+    color: lightskyblue;
+    font-size: 30px;
+   
+}
+
+50%{
+    color: mediumseagreen;
+  
+}
+
+70%{
+    font-size: 25px;
+    color: mediumpurple;
+  
+}
+
+90%{
+    color: mediumturquoise;
+  
+}
+
+100%{
+    color: lightskyblue;
+}
+
+
+}
+
+input{
+    cursor: pointer;
+}
